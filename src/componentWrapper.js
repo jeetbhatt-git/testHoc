@@ -8,6 +8,8 @@ function getStyles(props) {
   return newProps;
 }
 
+// changing some file here to get to get thsi in local
+
 export default (WrappedComponent) => {
   return function wrapperRender(args) {
     return WrappedComponent(getStyles(args));
